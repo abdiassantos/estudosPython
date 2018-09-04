@@ -1,0 +1,12 @@
+# n = float(input('Digite um valor: '))
+n = input('Digite algo: ')
+
+print('É tipo numérico? {}'.format(n.isnumeric()))
+print('É tipo alphanumerico? {}'.format(n.isalnum()))
+print('É tipo alphabetico? {}'.format(n.isalpha()))
+print('É tipo decimal? {}'.format(n.isdecimal()))
+print('É tipo digito? {}'.format(n.isdigit()))
+print('Está em minúsculo? {}'.format(n.islower()))
+print('É um espaço? {}'.format(n.isspace()))
+print('Está em maiúsculo? {}'.format(n.isupper()))
+print(type(n))
