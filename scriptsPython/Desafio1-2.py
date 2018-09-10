@@ -1,6 +1,6 @@
 nome = input('Qual o seu nome?')
 
-dia = input('Insira o dia de Nascimento')
+dia = input('Insira o Dia de Nascimento')
 mes = input('Insira o Mês de Nascimento')
 ano = input('Insira o Ano de Nascimento')
 
