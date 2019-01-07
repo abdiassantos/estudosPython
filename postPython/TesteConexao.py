@@ -1,3 +1,4 @@
+#%%
 import postgresql as psql
 from Conexao import *
 
@@ -10,7 +11,7 @@ if opcao == 1:
     if con.manipular(sql):
         print('Inserido com sucesso!')
 if opcao == 2:
-    sql = "delete from cidade where id = 8"
+    sql = "delete from cidade where id = 9"
     if con.manipular(sql):
         print('Deletado com sucesso!')
 print(con.proximaPK('cidade', 'id'))
