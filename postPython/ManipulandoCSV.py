@@ -48,4 +48,3 @@ with open ('arquivosCSV/dados_escrita_dict.csv', mode = 'w', encoding = 'utf-8',
     writer.writeheader()
     writer.writerow({'nome': 'João Silva', 'depto': 'Contabilidade', 'mes_aniv':'novembro'})
     writer.writerow({'nome': 'Catarina Andrade', 'depto': 'Informática', 'mes_aniv': 'março'})
-    
